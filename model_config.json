@@ -1,0 +1,2065 @@
+{
+    "ElementwiseUnaryModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSinhModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseCoshModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAcoshModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAsinModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAsinhModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtanhModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBinaryModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBinaryStaticShapeModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseTernaryModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseTernaryStaticShapeModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        512
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseWhereSelfModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "FloatPowerTensorTensorStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseWhereScalarModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAddModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": []
+                }
+            ]
+        }
+    ],
+    "ElementwiseUnsqueezeBroadcastModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": []
+                }
+            ]
+        }
+    ],
+    "ElementwiseUnsqueezeNegDimsModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseFlattenBroadcastModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": []
+                }
+            ]
+        }
+    ],
+    "ElementwiseReluModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        256
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRelu6Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        256
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseLeakyReluModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        256
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseLeakyReluStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseLerpScalarIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseLerpScalarFloatModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseEluNonDefaultModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseEluModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwisePreluModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwisePreluStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseCeluModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRreluTrainModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRreluTrainStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRreluEvalModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRreluEvalStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRreluWithNoiseTrainModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096,
+                        4096
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRreluWithNoiseTrainStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096,
+                        4096
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRreluWithNoiseEvalModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRreluWithNoiseEvalStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseCeluStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseGeluModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseGeluApproximateTanhModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSeluModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSigmoidModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseMinimumModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseMinOtherModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseMaximumModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseFmaxModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseFminModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseMaxOtherModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseClampModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseClampMinModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseClampMaxModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "RsubFloatModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "RsubFloatModule_noalpha": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseMulScalarFloatModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseMishModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtanTensorFloatModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtan2TensorFloatModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtan2TensorFloatStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseLogModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseLog1pModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseLogitModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseLogSigmoidModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSoftshrinkModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSoftshrinkStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseHardshrinkModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseHardshrinkStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseErfModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSqrtModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseFloorModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseCeilModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSgnModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "Exp2StaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        256
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwisePowModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwisePowTensorModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwisePowTensorStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1,
+                        1
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwisePowTensorBroadcastModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwisePowTensorBroadcastStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwisePowScalarModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseToDtypeF32ToI64Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseToDtypeIdentityModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseLog2Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseLog10Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRsqrtModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseReciprocalModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDivScalarModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderScalarModule_Float": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderScalarModule_Float_NegativeDividend": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderScalarModule_Float_NegativeDivisor": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseFmodTensor_Float": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderTensorModule_Float": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderTensorModule_Float_NegativeDividend": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderTensorModule_Float_NegativeDivisor": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDivScalarRoundingModeTruncModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDivScalarRoundingModeFloorModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDivScalarRoundingModeTruncStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDivScalarRoundingModeFloorStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSubScalarFloatModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAddScalarFloatModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseCloneModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        256,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseCloneContiguousModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        256,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseCloneChannelsLastMemoryFormatModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        256,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "LiftFreshCopyModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        256,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseExpModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseExpm1Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSpecialExpm1Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRad2DegModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRad2DegIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSinModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseCosModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAcosModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseTanModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseNegModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenLogicalOrOpRandomFloatModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        256,
+                        512
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        256,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenFloorDivideScalarModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenFloorDivideScalarNegativeModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenFloorDivideTensorNegativeModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        512
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenFloorDivideTensorPositiveModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        512
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenFloorDivideBroadcastModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "AtenTriuModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "AtenTriuWithPosDiagonalModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "TriuBroadcastModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "AtenTriuWithNegDiagonalModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1
+                    ]
+                }
+            ]
+        }
+    ],
+    "AtenTrilModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "AtenTrilStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "AtenTrilWithPosDiagonalModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "AtenTrilWithPosDiagonalStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "AtenTrilWithNegDiagonalModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1
+                    ]
+                }
+            ]
+        }
+    ],
+    "AtenTrilWithNegDiagonalStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1
+                    ]
+                }
+            ]
+        }
+    ],
+    "AtenRoundFloatModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        2048,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "Fill_TensorFloat64WithFloat32": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        256
+                    ]
+                }
+            ]
+        }
+    ],
+    "Fill_TensorFloat64WithFloat32Static": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        256
+                    ]
+                }
+            ]
+        }
+    ],
+    "Fill_TensorFloat32WithFloat32": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        256
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": []
+                }
+            ]
+        }
+    ],
+    "TupleModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        256,
+                        256
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        256,
+                        256
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseQuantizePerTensorModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseQuantizePerTensorUIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "GluStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "FakeQuantizePerTensorAffineModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "FakeQuantizePerTensorAffineDynamicShapeModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "Deg2radModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ]
+}
