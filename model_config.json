@@ -12,11 +12,37 @@
             ]
         }
     ],
+    "ElementwiseUnaryIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseSinhModule": [
         {
             "inputs": [
                 {
                     "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSinhIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
                     "shape": [
                         512,
                         1024
@@ -38,11 +64,37 @@
             ]
         }
     ],
+    "ElementwiseCoshIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseAcoshModule": [
         {
             "inputs": [
                 {
                     "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAcoshIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
                     "shape": [
                         512,
                         1024
@@ -64,6 +116,19 @@
             ]
         }
     ],
+    "ElementwiseAsinIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseAsinhModule": [
         {
             "inputs": [
@@ -77,11 +142,37 @@
             ]
         }
     ],
+    "ElementwiseAsinhIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseAtanhModule": [
         {
             "inputs": [
                 {
                     "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtanhIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
                     "shape": [
                         512,
                         1024
@@ -115,15 +206,20 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        2048,
-                        1024
+                        128,
+                        512,
+                        256,
+                        128,
+                        1
                     ]
                 },
                 {
                     "dtype": "float32",
                     "shape": [
-                        1024,
-                        512
+                        512,
+                        256,
+                        1,
+                        128
                     ]
                 }
             ]
@@ -135,21 +231,22 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        512,
-                        1024
+                        128,
+                        256,
+                        512
                     ]
                 },
                 {
                     "dtype": "float32",
                     "shape": [
-                        1024,
-                        2048
+                        256,
+                        512
                     ]
                 },
                 {
                     "dtype": "float32",
                     "shape": [
-                        2048
+                        512
                     ]
                 }
             ]
@@ -162,7 +259,8 @@
                     "dtype": "float32",
                     "shape": [
                         2048,
-                        1024
+                        1024,
+                        512
                     ]
                 },
                 {
@@ -187,8 +285,9 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        512,
-                        1024
+                        128,
+                        256,
+                        512
                     ]
                 },
                 {
@@ -226,8 +325,93 @@
                 {
                     "dtype": "float32",
                     "shape": [
+                        128,
+                        256,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseWhereScalarOtherModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float64",
+                    "shape": [
                         512,
-                        1024
+                        1024,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        1024,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseWhereScalarOtherStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        512,
+                        1024,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        1024,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseWhereScalarSelfModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        512,
+                        1024,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        1024,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseWhereScalarSelfStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        512,
+                        1024,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        1024,
+                        2048
                     ]
                 }
             ]
@@ -307,6 +491,45 @@
             ]
         }
     ],
+    "QuantizedReluInt8": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int8",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "QuantizedReluUint8": [
+        {
+            "inputs": [
+                {
+                    "dtype": "uint8",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "QuantizedReluInt32": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseRelu6Module": [
         {
             "inputs": [
@@ -339,8 +562,9 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        1024,
-                        2048
+                        128,
+                        256,
+                        512
                     ]
                 }
             ]
@@ -418,8 +642,11 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        2048,
-                        1024
+                        1024,
+                        512,
+                        256,
+                        128,
+                        1
                     ]
                 },
                 {
@@ -437,8 +664,11 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        2048,
-                        1024
+                        1024,
+                        512,
+                        256,
+                        128,
+                        1
                     ]
                 },
                 {
@@ -469,8 +699,8 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        4096,
-                        4096
+                        512,
+                        512
                     ]
                 }
             ]
@@ -482,8 +712,8 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        4096,
-                        4096
+                        512,
+                        512
                     ]
                 }
             ]
@@ -521,15 +751,15 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        4096,
-                        4096
+                        512,
+                        512
                     ]
                 },
                 {
                     "dtype": "float32",
                     "shape": [
-                        4096,
-                        4096
+                        512,
+                        512
                     ]
                 }
             ]
@@ -541,15 +771,15 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        4096,
-                        4096
+                        512,
+                        512
                     ]
                 },
                 {
                     "dtype": "float32",
                     "shape": [
-                        4096,
-                        4096
+                        512,
+                        512
                     ]
                 }
             ]
@@ -660,6 +890,19 @@
             ]
         }
     ],
+    "ElementwiseSigmoidIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseMinimumModule": [
         {
             "inputs": [
@@ -672,6 +915,26 @@
                 },
                 {
                     "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseMinimumIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "int64",
                     "shape": [
                         512,
                         2048
@@ -700,6 +963,26 @@
             ]
         }
     ],
+    "ElementwiseMinOtherIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseMaximumModule": [
         {
             "inputs": [
@@ -712,6 +995,26 @@
                 },
                 {
                     "dtype": "float32",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseMaximumIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "int64",
                     "shape": [
                         512,
                         2048
@@ -776,6 +1079,26 @@
             ]
         }
     ],
+    "ElementwiseMaxOtherIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseClampModule": [
         {
             "inputs": [
@@ -815,6 +1138,19 @@
             ]
         }
     ],
+    "ElementwiseClampTensorInt8Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int8",
+                    "shape": [
+                        512,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
     "RsubFloatModule": [
         {
             "inputs": [
@@ -841,6 +1177,45 @@
             ]
         }
     ],
+    "RsubIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "RsubIntModule_noalpha": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseMulScalarIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseMulScalarFloatModule": [
         {
             "inputs": [
@@ -848,6 +1223,109 @@
                     "dtype": "float32",
                     "shape": [
                         512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseMulScalarModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseMulTensorFloatModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseMulTensorIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseCreateComplexModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseMulTensorComplexModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "complex64",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "complex64",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseMulTensorComplexDiffModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "complex64",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "complex128",
+                    "shape": [
                         1024
                     ]
                 }
@@ -880,6 +1358,18 @@
             ]
         }
     ],
+    "ElementwiseAtanTensorIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseAtan2TensorFloatModule": [
         {
             "inputs": [
@@ -906,15 +1396,99 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        1024,
-                        2048
+                        128,
+                        256,
+                        512
                     ]
                 },
                 {
                     "dtype": "float32",
                     "shape": [
+                        128,
+                        256,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtan2TensorIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtan2TensorIntStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
                         1024,
-                        2048
+                        2048,
+                        4096
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        1024,
+                        2048,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtan2FloatIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        1024,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        1024,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtan2FloatIntStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        1024,
+                        2048,
+                        4096
+                    ]
+                },
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        1024,
+                        2048,
+                        4096
                     ]
                 }
             ]
@@ -925,6 +1499,19 @@
             "inputs": [
                 {
                     "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseLogIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
                     "shape": [
                         512,
                         1024
@@ -991,14 +1578,43 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        1024,
-                        2048
+                        128,
+                        256,
+                        512
                     ]
                 }
             ]
         }
     ],
     "ElementwiseHardshrinkModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        128,
+                        256,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseHardshrinkStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        128,
+                        256,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseErfModule": [
         {
             "inputs": [
                 {
@@ -1011,24 +1627,11 @@
             ]
         }
     ],
-    "ElementwiseHardshrinkStaticModule": [
+    "ElementwiseErfIntModule": [
         {
             "inputs": [
                 {
-                    "dtype": "float32",
-                    "shape": [
-                        1024,
-                        2048
-                    ]
-                }
-            ]
-        }
-    ],
-    "ElementwiseErfModule": [
-        {
-            "inputs": [
-                {
-                    "dtype": "float32",
+                    "dtype": "int32",
                     "shape": [
                         512,
                         1024
@@ -1050,6 +1653,19 @@
             ]
         }
     ],
+    "ElementwiseSqrtIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseFloorModule": [
         {
             "inputs": [
@@ -1063,11 +1679,63 @@
             ]
         }
     ],
+    "ElementwiseFloorIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseCeilModule": [
         {
             "inputs": [
                 {
                     "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseTruncIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSignbitIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSignIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
                     "shape": [
                         512,
                         1024
@@ -1097,6 +1765,19 @@
                     "shape": [
                         512,
                         256
+                    ]
+                }
+            ]
+        }
+    ],
+    "Exp2StaticIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
                     ]
                 }
             ]
@@ -1234,11 +1915,50 @@
             ]
         }
     ],
+    "ElementwiseToDtypeI64ToI8Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseToDtypeI64ToUI8Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseLog2Module": [
         {
             "inputs": [
                 {
                     "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseLog2IntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
                     "shape": [
                         512,
                         1024
@@ -1260,11 +1980,37 @@
             ]
         }
     ],
+    "ElementwiseLog10IntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseRsqrtModule": [
         {
             "inputs": [
                 {
                     "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRsqrtIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
                     "shape": [
                         512,
                         1024
@@ -1285,6 +2031,18 @@
             ]
         }
     ],
+    "ElementwiseReciprocalIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseDivScalarModule": [
         {
             "inputs": [
@@ -1293,6 +2051,55 @@
                     "shape": [
                         512,
                         1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenDivIntScalarModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderScalarModule_Int_Float": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderScalarModule_Int_Float_NegativeDividend": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderScalarModule_Int_Float_NegativeDivisor": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        4096
                     ]
                 }
             ]
@@ -1337,6 +2144,45 @@
             ]
         }
     ],
+    "ElementwiseRemainderScalarModule_Int": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        256
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderScalarModule_Int_NegativeDividend": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        256
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderScalarModule_Int_NegativeDivisor": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        256
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseFmodTensor_Float": [
         {
             "inputs": [
@@ -1350,6 +2196,102 @@
                     "dtype": "float32",
                     "shape": [
                         4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseFmodTensor_Int_Float": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        4096
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseFmodTensor_Int": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        4096
+                    ]
+                },
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderTensorModule_Int_Float": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderTensorModule_Int_Float_NegativeDividend": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderTensorModule_Int_Float_NegativeDivisor": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
                     ]
                 }
             ]
@@ -1415,6 +2357,124 @@
             ]
         }
     ],
+    "ElementwiseRemainderTensorModule_Int": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderTensorModule_Int_NegativeDividend": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseRemainderTensorModule_Int_NegativeDivisor": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDivTensorFloatModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDivTensorIntegerModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDivTensorUnsignedIntegerModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "uint8",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "uint8",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseDivScalarRoundingModeTruncModule": [
         {
             "inputs": [
@@ -1465,6 +2525,389 @@
             ]
         }
     ],
+    "ElementwiseDivScalarRoundingModeTruncIntStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDivScalarRoundingModeFloorIntStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDivTensorRoundingModeTruncModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDivTensorRoundingModeFloorModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDivTensorRoundingModeTruncStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDivTensorRoundingModeFloorStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDivTensorRoundingModeTruncIntStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDivTensorRoundingModeFloorIntStaticModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseAndModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseAndStaticShapeModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseOrModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseOrStaticShapeModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseOrTensorModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseOrTensorStaticShapeModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAndscalarModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAndScalarStaticShapeModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseXorModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseXorStaticShapeModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseNotInt64Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseNotInt32Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSubTensorInt8Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int8",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int8",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSubScalarIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseSubScalarFloatModule": [
         {
             "inputs": [
@@ -1473,6 +2916,32 @@
                     "shape": [
                         512,
                         1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAddScalarInt64Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAddScalarIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        256,
+                        512
                     ]
                 }
             ]
@@ -1491,6 +2960,19 @@
             ]
         }
     ],
+    "ElementwiseAddScalarInt8Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int8",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseCloneModule": [
         {
             "inputs": [
@@ -1498,7 +2980,8 @@
                     "dtype": "float32",
                     "shape": [
                         256,
-                        512
+                        512,
+                        1024
                     ]
                 }
             ]
@@ -1511,7 +2994,8 @@
                     "dtype": "float32",
                     "shape": [
                         256,
-                        512
+                        512,
+                        1024
                     ]
                 }
             ]
@@ -1523,6 +3007,8 @@
                 {
                     "dtype": "float32",
                     "shape": [
+                        256,
+                        128,
                         256,
                         512
                     ]
@@ -1537,7 +3023,8 @@
                     "dtype": "float32",
                     "shape": [
                         256,
-                        512
+                        512,
+                        1024
                     ]
                 }
             ]
@@ -1548,6 +3035,19 @@
             "inputs": [
                 {
                     "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseExpIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
                     "shape": [
                         512,
                         1024
@@ -1569,11 +3069,37 @@
             ]
         }
     ],
+    "ElementwiseExpm1IntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseSpecialExpm1Module": [
         {
             "inputs": [
                 {
                     "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseSpecialExpm1IntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
                     "shape": [
                         512,
                         1024
@@ -1621,11 +3147,37 @@
             ]
         }
     ],
+    "ElementwiseSinIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseCosModule": [
         {
             "inputs": [
                 {
                     "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseCosIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
                     "shape": [
                         512,
                         1024
@@ -1647,11 +3199,37 @@
             ]
         }
     ],
+    "ElementwiseAcosIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseTanModule": [
         {
             "inputs": [
                 {
                     "dtype": "float32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseTanIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
                     "shape": [
                         512,
                         1024
@@ -1673,21 +3251,229 @@
             ]
         }
     ],
+    "ElementwiseAtenLogicalOrOpRandomModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        256,
+                        512,
+                        1024,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        256,
+                        512,
+                        1024,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
     "ElementwiseAtenLogicalOrOpRandomFloatModule": [
         {
             "inputs": [
                 {
                     "dtype": "float32",
                     "shape": [
+                        128,
                         256,
-                        512
+                        256,
+                        128
                     ]
                 },
                 {
                     "dtype": "float32",
                     "shape": [
+                        128,
                         256,
+                        256,
+                        128
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenLogicalOrOpBrodcastModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
                         512
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        1024,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenLogicalOrOpPromoteBroadcastStaticShapeModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenLogicalAndOpModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "bool",
+                    "shape": [
+                        1024,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "bool",
+                    "shape": [
+                        1024,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenLogicalAndOpPromoteBroadcastModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenLogicalAndOpPromoteBroadcastStaticShapeModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenLogicalXorOpModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "bool",
+                    "shape": [
+                        1024,
+                        2048
+                    ]
+                },
+                {
+                    "dtype": "bool",
+                    "shape": [
+                        1024,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenLogicalXorOpPromoteBroadcastModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenLogicalXorOpPromoteBroadcastStaticShapeModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        4096
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        4096
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenLogicalNotOpModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "bool",
+                    "shape": [
+                        1024,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseAtenLogicalNotOpPromoteModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        1024,
+                        2048
                     ]
                 }
             ]
@@ -1784,8 +3570,11 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        2048,
-                        4096
+                        128,
+                        512,
+                        128,
+                        256,
+                        128
                     ]
                 }
             ]
@@ -1797,8 +3586,9 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        4096,
-                        1024
+                        512,
+                        256,
+                        128
                     ]
                 }
             ]
@@ -1810,6 +3600,8 @@
                 {
                     "dtype": "float32",
                     "shape": [
+                        128,
+                        256,
                         512,
                         1024
                     ]
@@ -1823,8 +3615,10 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        512,
-                        1
+                        128,
+                        1,
+                        256,
+                        512
                     ]
                 }
             ]
@@ -1836,8 +3630,8 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        4096,
-                        4096
+                        512,
+                        512
                     ]
                 }
             ]
@@ -1849,8 +3643,8 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        4096,
-                        4096
+                        512,
+                        512
                     ]
                 }
             ]
@@ -1862,8 +3656,9 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        4096,
-                        1024
+                        512,
+                        256,
+                        128
                     ]
                 }
             ]
@@ -1875,8 +3670,9 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        4096,
-                        1024
+                        512,
+                        256,
+                        128
                     ]
                 }
             ]
@@ -1889,7 +3685,9 @@
                     "dtype": "float32",
                     "shape": [
                         512,
-                        1
+                        1,
+                        128,
+                        256
                     ]
                 }
             ]
@@ -1902,7 +3700,9 @@
                     "dtype": "float32",
                     "shape": [
                         512,
-                        1
+                        1,
+                        128,
+                        256
                     ]
                 }
             ]
@@ -1921,14 +3721,28 @@
             ]
         }
     ],
+    "AtenRoundIntModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        2048,
+                        2048
+                    ]
+                }
+            ]
+        }
+    ],
     "Fill_TensorFloat64WithFloat32": [
         {
             "inputs": [
                 {
                     "dtype": "float32",
                     "shape": [
-                        512,
-                        256
+                        128,
+                        256,
+                        512
                     ]
                 }
             ]
@@ -1940,8 +3754,51 @@
                 {
                     "dtype": "float32",
                     "shape": [
+                        128,
+                        256,
+                        512
+                    ]
+                }
+            ]
+        }
+    ],
+    "Fill_TensorFloat64WithFloat64": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float64",
+                    "shape": [
                         512,
-                        256
+                        256,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "Fill_TensorFloat64WithInt64": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        512,
+                        256,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "Fill_TensorFloat64WithInt64Static": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float64",
+                    "shape": [
+                        512,
+                        256,
+                        1024
                     ]
                 }
             ]
@@ -1953,12 +3810,49 @@
                 {
                     "dtype": "float32",
                     "shape": [
-                        512,
-                        256
+                        128,
+                        256,
+                        512
                     ]
                 },
                 {
                     "dtype": "float32",
+                    "shape": []
+                }
+            ]
+        }
+    ],
+    "Fill_TensorFloat32WithFloat64": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        256,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float64",
+                    "shape": []
+                }
+            ]
+        }
+    ],
+    "Fill_TensorFloat32WithInt64": [
+        {
+            "inputs": [
+                {
+                    "dtype": "float32",
+                    "shape": [
+                        512,
+                        256,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int64",
                     "shape": []
                 }
             ]
@@ -1979,6 +3873,165 @@
                     "shape": [
                         256,
                         256
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseRightShiftInt64Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseRightShiftInt32Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseRightShiftInt8Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int8",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int8",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseLeftShiftInt64Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseLeftShiftInt32Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseLeftShiftInt8Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int8",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int8",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseAndScalarInt64Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int64",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseAndScalarInt32Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int32",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseBitwiseAndScalarInt8Module": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int8",
+                    "shape": [
+                        512,
+                        1024
                     ]
                 }
             ]
@@ -2010,14 +4063,53 @@
             ]
         }
     ],
+    "ElementwiseDequantizePerTensorModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int8",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
+    "ElementwiseDequantizePerChannelModule": [
+        {
+            "inputs": [
+                {
+                    "dtype": "int8",
+                    "shape": [
+                        512,
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "int8",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        }
+    ],
     "GluStaticModule": [
         {
             "inputs": [
                 {
                     "dtype": "float32",
                     "shape": [
-                        512,
-                        4096
+                        128,
+                        256,
+                        512
                     ]
                 }
             ]
